@@ -1,0 +1,78 @@
+/* This is a CSS comment.*/
+
+
+/*
+Comments are only to help PEOPLE read a code file. The
+computer ignores them.*/
+
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+html {
+	font-family: "Lucida", sans-serif;
+	background: black;
+}
+
+
+h1 {
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h1,
+h2,
+h3 {
+	background: gray;
+	text-align: center;
+	border-radius: 15px;
+	border-style: outset;	
+}
+
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: outset;
+}
+
+img.Andy {
+	width: 7em;
+    border-radius: 50px;
+}
+
+img.TreePic {
+    border-radius: 10px;
+}
+
+img.Bazinga {
+	border-radius: 100px;
+	max-width: 25%;
+	max-height: 25%
+
+} 
+
+.PartContainer {
+	background: #B0B0B0;
+	max-width: 50%;
+	border-style: outset;
+	border-radius: 10px;
+	margin: 5px; 
+	padding: 10px; 
+}
+
+
+.Container {
+	display: flex;
+	margin: 5px; 
+	padding: 10px; 
+	border-radius: 10px;
+	border-style: outset;
+	background: #282828;
+}
+
